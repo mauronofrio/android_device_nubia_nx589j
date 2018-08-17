@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=nx591j
+export DEVICE=nx589j
 export DEVICE_COMMON=msm8976-common
 export VENDOR=nubia
 

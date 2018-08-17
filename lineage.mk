@@ -31,15 +31,15 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/nubia/nx591j/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_nx591j
-PRODUCT_DEVICE := nx591j
+PRODUCT_NAME := lineage_nx589j
+PRODUCT_DEVICE := nx589j
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := NX591J
+PRODUCT_MODEL := NX589J
 PRODUCT_MANUFACTURER := NUBIA
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=nubia/NX591J/NX591J:7.1.1/NMF26F/eng.nubia.20170905.150740:user/release-keys \
-    PRIVATE_BUILD_DESC="NX591-user 7.1.1 NMF26F eng.nubia.20171219.204524 release-keys" \
-    TARGET_DEVICE="NX591J"
+    BUILD_FINGERPRINT=nubia/NX589J/NX589J:7.1.1/NMF26F/eng.nubia.20171020.213115:user/release-keys \
+    PRIVATE_BUILD_DESC="NX589-user 7.1.1 NMF26F eng.nubia.20180801.221344 release-keys" \
+    TARGET_DEVICE="NX589J"

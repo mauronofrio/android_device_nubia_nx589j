@@ -16,7 +16,7 @@
 # inherit from common msm8976-common
 -include device/nubia/msm8976-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/nubia/nx591j
+DEVICE_PATH := device/nubia/nx589j
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -26,7 +26,7 @@ BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/cmhw
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_nx591j_defconfig
+TARGET_KERNEL_CONFIG := lineageos_nx589j_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4831838208

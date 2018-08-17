@@ -21,6 +21,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),nx591j)
+ifeq ($(TARGET_DEVICE),nx589j)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
