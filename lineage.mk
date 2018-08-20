@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/nubia/nx591j/device.mk)
+$(call inherit-product, device/nubia/nx589j/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_nx589j
