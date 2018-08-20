@@ -40,3 +40,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # inherit from the proprietary version
 -include vendor/nubia/nx591j/BoardConfigVendor.mk
+
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := nx589j,NX589J
